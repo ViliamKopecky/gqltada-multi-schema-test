@@ -1,0 +1,16 @@
+{
+  "name": "gqltada-test",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "gqlcheck": "gql.tada check",
+    "check": "npm run typecheck && npm run gqlcheck"
+  },
+  "dependencies": {
+    "gql.tada": "^1.6.1",
+    "typescript": "^5.4.5",
+    "urql": "^4.0.7"
+  },
+  "devDependencies": {
+    "@0no-co/graphqlsp": "^1.12.1"
+  }
+}
